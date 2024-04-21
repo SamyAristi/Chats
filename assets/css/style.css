@@ -1,0 +1,127 @@
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.box{
+    display: flex;
+}
+
+.container {
+    font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  border: 2px solid black;
+  width: 20%;
+}
+
+.usuario {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.usuario_1 {
+  display: flex;
+}
+
+.usuario_1 img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+
+.usuario_1 p {
+  font-size: 1em;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.usuario_1 h4 {
+  font-size: 10px;
+  margin: 0px;
+  color: gray;
+}
+
+.usuario_2 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border: 2px #e8ebe4 solid;
+}
+
+.button button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  border: 0px;
+}
+
+.chats {
+    display: flex;
+    align-items: stretch;
+    border-top: 0.8px solid rgb(190, 193, 187);
+    border-bottom: 0.8px solid rgb(190, 193, 187);
+    border-left: 0px;
+    padding: 0.7rem 1.2rem;
+    flex-direction: column;
+}
+
+
+.usuario_3 {
+  display: flex;
+  border-bottom: #e8ebe4 2px solid;
+  border-top: #e8ebe4 2px solid ;
+  
+}
+
+.usuario_3 img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.usuario_3 p {
+  font-size: 1em;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.usuario_3 h4 {
+  font-size: 10px;
+  margin: 0px;
+  color: gray;
+}
+
+.seccion_principal{
+    width: 80%;
+    height: 100vh;
+    border: #e8ebe4 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.seccion_principal img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
